@@ -13,7 +13,7 @@ close all;
 
 % EDIT THESE.....
 %-------------------------------------------------------------------------
-IDLfile_dir = '/Users/hannahholt/Documents/IDLfiles/';  %directory with .sav files
+IDLfile_dir = './IDLfiles/';  %directory with .sav files
 irradiance_file = 'FISM_EVE_daily_merged_earth_v8r1_01_2007_on.sav';    % FISM irradiances
 % MAVEN filter response func. EUV_OP = Zr and AlMg, euvma = Al/Nb/C and euvmb = A/Ti/C
 resp_func_file = {'EUV_OP_resp_function.sav', 'euvma_response_cal.sav', 'euvmb_response_cal.sav'};                    
